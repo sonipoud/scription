@@ -21,7 +21,7 @@ router.get('/api/notes', (req,res) => {
 //     }
 // });
 
-router.post('/notes', (req,res) => {
+router.post('/api/notes', (req,res) => {
     req.body.id = notes.length.toString();
     const notes = createNewNotes(req.body, notes);
     res.json(notes);
