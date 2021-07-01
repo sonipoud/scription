@@ -1,7 +1,8 @@
 const router = require('express').Router();
 const db = require('../db/db.json');
-const fs = require('fs');
+const fs = require("fs");
 const {v4: uuidv4} = require('uuid');
+const { createNewNote, findById } = require('../lib/notes')
 
 
 router.get('/api/notes', (req, res) => {
@@ -9,14 +10,16 @@ router.get('/api/notes', (req, res) => {
         if (err) {
             throw err
         }
-        res.json(JSON.parse(data));
+        res.json(JSON.parse(notes));
     });
 });
 
-router.post('/api/notes', (req, res) => {
+router.post("/api/notes", (req, res) => {
+    req.body.id = notes.length.toString();
+
     if (!req.body.id) {
         req.body.id = uuidv4();
-        createNewNotes(req.body, notes);
+        createNewNote(req.body, notes);
     }
     res.json(req.body);
 });
