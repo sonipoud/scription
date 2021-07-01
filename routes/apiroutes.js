@@ -17,8 +17,6 @@ router.post('/api/notes', (req, res) => {
     if (!req.body.id) {
         req.body.id = uuidv4();
         createNewNotes(req.body, notes);
-    } else {
-        editNote(req.body, notes);
     }
     res.json(req.body);
 });
