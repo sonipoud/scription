@@ -4,19 +4,24 @@ const fs = require("fs");
 const { createNewNote } = require('../lib/notes.js')
 
 
-router.get('/api/notes', (req, res) => {
-    fs.readFile('./db/db.json', 'utf8', (err, data) => {
-        if (err) {
-            throw err
-        }
-        res.json(JSON.parse(data));
-    });
+// router.get('/api/notes', (req, res) => {
+//     let data = 
+//     fs.readFileSync('./db/db.json', 'utf8', (err, data) => {
+//         if (err) {
+//             throw err
+//         }
+//         res.json(data);
+//     });
+// });
+
+router.get('/api/notes', (req,res) => {
+    let data = notes;
+    res.json(data);
 });
 
 router.post("/api/notes", (req, res) => {
-    req.body.id = notes.length.toString();
     let note = createNewNote(req.body, notes);
-    res.json(note);
+    console.log(note);
 });
 
 

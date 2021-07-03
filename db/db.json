@@ -1,13 +1,1 @@
-{
-  "notes": [
-    {
-      "title": "Test Title",
-      "text": "Test text"
-    },
-    {
-      "title": "Hello",
-      "text": "How are you?",
-      "id": "1"
-    }
-  ]
-}
+[{"title":"whats","text":"up"},{"title":"hello","text":"hi"},{"title":"hey","text":"hello"},{"title":"hey","text":"hello"},{"title":"Today is beautiful","text":"Lets go to beach"}]
