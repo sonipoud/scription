@@ -11,13 +11,6 @@ router.get('/api/notes', (req, res) => {
   
 });
 
-
-
-// router.get('/api/notes', (req,res) => {
-//     let data = notes;
-//     res.json(data);
-// });
-
 router.post("/api/notes", (req, res) => {
     let note = createNewNote(req.body, notes);
     console.log(note);
