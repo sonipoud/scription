@@ -6,5 +6,17 @@
     {
         "title": "Hello",
         "text": "Hi"
+    },
+    {
+        "title": "Grocery Shopping",
+        "text": "Bread, Salt, Cookies"
+    },
+    {
+        "title": "Things to take to beach",
+        "text": "Towel, chair, sunscreen, glasses"
+    },
+    {
+        "title": "Restaurants",
+        "text": "Nepali, Italian, Chinese "
     }
 ]

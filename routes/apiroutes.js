@@ -5,16 +5,18 @@ const { createNewNote } = require('../lib/notes.js')
 
 
 router.get('/api/notes', (req, res) => {
-    let data = JSON.parse(fs.readFileSync('./db/db.json'))
-
-        res.json(data);
-  
+    const note = JSON.parse(fs.readFileSync('./db/db.json'), 'utf-8');
+    res.json(note);
 });
 
 router.post("/api/notes", (req, res) => {
-    let note = createNewNote(req.body, notes);
-    console.log(note);
+    const note = createNewNote(req.body, notes);
+    res.json(note);
 });
 
+// router.delete("/api/notes", (req,res) => {
+//     const note = deleteNote();
+//     res.json(note);     
+// });
 
 module.exports = router;

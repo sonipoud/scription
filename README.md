@@ -16,12 +16,15 @@ The website is about adding notes, posting them and deleting them as the person 
 ---
 
 ## Screenshot
-![Screenshot]()
+![Screenshot1](./public/assets/images/Screenshot1.png)
+![Screenshot2](./public/assets/images/Screenshot2.png)
+![Screenshot3](./public/assets/images/Screenshot3.png)
 
 ---
 
 ## Website
-[NoteTaker]()
+This is the only deployed page:
+[NoteTaker](http://localhost:3001/notes)
 
 ---
 
