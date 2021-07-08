@@ -1,6 +1,7 @@
 const router = require('express').Router();
 const notes = require('../db/db.json');
 const fs = require("fs");
+
 const { createNewNote } = require('../lib/notes.js')
 
 
