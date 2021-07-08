@@ -1,42 +1,12 @@
 [
     {
-        "title": "whats",
-        "text": "up"
+        "title": "Shopping ",
+        "text": "Groceries, Clothings, School items",
+        "id": "bf6cc842-f349-4559-be9b-f4b3dce52535"
     },
     {
-        "title": "Hello",
-        "text": "Hi"
-    },
-    {
-        "title": "Grocery Shopping",
-        "text": "Bread, Salt, Cookies"
-    },
-    {
-        "title": "Things to take to beach",
-        "text": "Towel, chair, sunscreen, glasses"
-    },
-    {
-        "title": "Restaurants",
-        "text": "Nepali, Italian, Chinese "
-    },
-    {
-        "title": "HEY",
-        "text": "hi",
-        "id": "1"
-    },
-    {
-        "title": "HELLO",
-        "text": "hey",
-        "id": "b7697035-e743-4ca6-9f3d-c214946d2200"
-    },
-    {
-        "title": "coffee",
-        "text": "candy",
-        "id": "8a3f16f4-72db-4550-a204-674e5f9d4937"
-    },
-    {
-        "title": "hello",
-        "text": "hey",
-        "id": "a6896e4c-f54a-4e49-821f-dac688457729"
+        "title": "Kitchen Items",
+        "text": "Fridge, Stove, MicroOven, Dishwasher",
+        "id": "3304a6ba-0799-46d4-bf89-2cae13181c71"
     }
 ]
