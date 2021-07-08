@@ -24,7 +24,7 @@ The website is about adding notes, posting them and deleting them as the person 
 
 ## Website
 This is the only deployed page:
-[NoteTaker](http://localhost:3001/notes)
+[NoteTaker](https://note-notetaker.herokuapp.com/)
 
 ---
 

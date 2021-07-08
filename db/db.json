@@ -1,12 +1,1 @@
-[
-    {
-        "title": "Shopping ",
-        "text": "Groceries, Clothings, School items",
-        "id": "bf6cc842-f349-4559-be9b-f4b3dce52535"
-    },
-    {
-        "title": "Kitchen Items",
-        "text": "Fridge, Stove, MicroOven, Dishwasher",
-        "id": "3304a6ba-0799-46d4-bf89-2cae13181c71"
-    }
-]
+[{"title":"Kitchen Items","text":"Fridge, Stove, MicroOven, Dishwasher","id":"3304a6ba-0799-46d4-bf89-2cae13181c71"},{"title":"Restaurants","text":"Nepali, Italian, Chinese","id":"d1e1b2ca-4c73-4dcb-820a-b837579cd761"}]
